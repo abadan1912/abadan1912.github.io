@@ -29,12 +29,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Clear Cache Manually
+        run: rm -rf vendor/bundle
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.1"
           bundler-cache: true
-          cache-version: "v2"
 
       - name: Install dependencies
         run: bundle install
