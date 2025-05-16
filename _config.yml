@@ -1,4 +1,9 @@
-url : "https://github.com/abadan1912"
+title: Abadan Syakira
+email: abadan191205@gmail.com
+description: >
+  Hii saya adalah Abadan Syakira, saya adalah Mahasiswa Politeknik Negeri Lhokseumawe, Prodi Teknik Informatika.
+
+url: "https://github.com/abadan1912"
 
 plugins:
   - jekyll-feed
