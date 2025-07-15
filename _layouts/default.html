@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <span class="nav-title">Abadan Blog</span>
+      <a href="/index.html"{% if page.url == '/index.html' %} class="active"{% endif %}>Home</a>
+      <a href="/friends.html"{% if page.url contains 'friends' %} class="active"{% endif %}>Friends</a>
+      <a href="/blog.html"{% if page.url contains 'blog' %} class="active"{% endif %}>Blog</a>
+    </div>
+  </nav>
+
+  <main class="content">
+    {{ content }}
+  </main>
+</body>
+</html>
