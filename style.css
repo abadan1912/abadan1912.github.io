@@ -1,3 +1,95 @@
+<<<<<<< HEAD
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.7;
+  }
+  
+  
+  p {
+    text-align: justify;
+    margin-bottom: 1.2em;
+    font-size: 1rem;
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #34495e;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 6px;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    color: #3b3b3b;
+  }
+  
+  h4 {
+    font-size: 1.1rem;
+    color: #4f4f4f;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+
+    th {
+      position: absolute;
+      left: -9999px;
+    }
+  
+    td {
+      position: relative;
+      padding-left: 50%;
+      border: none;
+      border-bottom: 1px solid #eee;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      font-weight: bold;
+      color: #555;
+    }
+  
+  
+=======
 
 body {
     margin: 0;
@@ -110,3 +202,4 @@ img {
   max-width: 300px;
   height: auto;
 }
+>>>>>>> b6d8824 (Web Abadan Syakira 1e)

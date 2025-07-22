@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+title: Abadan Syakira
+email: abadan191205@gmail.com
+description: >
+  Hii saya adalah Abadan Syakira, saya adalah Mahasiswa Politeknik Negeri Lhokseumawe, Prodi Teknik Informatika.
+
+url: "https://github.com/abadan1912"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+=======
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -53,3 +66,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+>>>>>>> b6d8824 (Web Abadan Syakira 1e)

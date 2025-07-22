@@ -18,3 +18,9 @@ penjelasan tentang Ruby dan Jekyll
 ![Ruby](/assets/images/ruby.jpg)
 ![Ruby](/assets/images/jekyll.png)
 
+<<<<<<< HEAD
+<img src="assets/images/ruby.jpg" alt="Contoh Gambar" class="gambar-responsive">
+<img src="assets/images/jekyll.png" alt="Contoh Gambar" class="gambar-responsive">
+
+=======
+>>>>>>> b6d8824 (Web Abadan Syakira 1e)

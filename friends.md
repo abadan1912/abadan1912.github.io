@@ -7,7 +7,11 @@ title: friends
 
 Berikut Teman-teman saya di kelas:
 
+<<<<<<< HEAD
+1. [Abadan Syakira](https://abadan1912.github.io/)
+=======
 1. [Ikhsan Salsabily](https://isanbly06.github.io/)
+>>>>>>> b6d8824 (Web Abadan Syakira 1e)
 2. [Desi Nabila Sari](https://desynabilasari.github.io/)
 3. [Deswita Nazwa Ariani](https://deswitanazwa.github.io/)
 4. [Dwi Ida Rahmadani Situmorang](https://dwiidarahmadanisitumorang.github.io)
